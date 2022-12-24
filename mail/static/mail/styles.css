@@ -1,0 +1,43 @@
+textarea {
+    min-height: 400px;
+}
+
+.read-item {
+    background-color: grey;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.read-item p {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.read-item p:last-child{
+    margin-left: auto;
+}
+
+.unread-item {
+    background-color: white;
+    border: 1px solid black;
+    padding: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.unread-item p {
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.unread-item p:last-child{
+    margin-left: auto;
+}
